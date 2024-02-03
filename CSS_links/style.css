@@ -1,0 +1,39 @@
+a {
+  font-size: 35px;
+  color: black;
+  text-decoration: none;
+  text-decoration: underline;
+  text-decoration: overline;
+  text-decoration: line-through;
+}
+a:visited {
+  color: brown;
+}
+a:hover {
+  color: aquamarine;
+}
+a:active {
+  color: red;
+  font-weight: bold;
+  font-size: 25px;
+}
+a:focus {
+  color: blueviolet;
+  font-size: 16px;
+  background: #000;
+  padding: 10px;
+}
+a.btn {
+  text-decoration: none;
+  background: red;
+  border: 2px solid red;
+  color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+  font-family: sans-serif;
+  border-radius: 35px;
+}
+a.btn:hover {
+  background: rgba(255, 0, 0, 0.2);
+  color: #000;
+}
